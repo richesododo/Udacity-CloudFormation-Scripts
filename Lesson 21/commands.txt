@@ -1,0 +1,3 @@
+aws cloudformation create-stack --stack-name ourdemoinfra --template-body file://deploy.yml --parameters file://deploy-param.json --region=us-west-2
+
+aws cloudformation update-stack --stack-name ourdemoinfra --template-body file://deploy.yml --parameters file://deploy-param.json --region=us-west-2
